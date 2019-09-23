@@ -1,0 +1,9 @@
+/*スライドする複数イメージをぴったりと重ねます*/
+#slide{
+position:relative;
+}
+#slide img{
+position:absolute;
+left:0;
+top:0;
+}
