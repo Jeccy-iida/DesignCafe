@@ -54,12 +54,14 @@
 
 /*ここからABOUT*/
 
-#about-title h2 {
+.title h2 {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
+    margin: 4%;
+
 }
 
 #about-item {
@@ -119,7 +121,7 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 33px;
     margin: 10% 0% 0% 60%;
     padding-top: 13%;
 }
@@ -131,11 +133,61 @@
     font-size: 20px;
     margin: 0% 0% 0% 60%;
     line-height: 180%
-
 }
 
 #main-text {
     background-color: #182b2e;
     height: 729px;
+}
 
+/*ここからＡＣＣＥＳＳ*/
+
+.left {
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin-left: 10%;
+    color: #182b2e;
+}
+
+.right {
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 40%;
+    height: 400px;
+    margin-left: 50%
+}
+
+.right h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #182b2e;
+}
+
+.right p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #182b2e;
+}
+
+.right1 p {
+    padding-top: 9%;
+    padding-bottom: 4%;
+}
+
+.right1 h3 {
+    float: left;
+    padding: 5% 8% 5% 15%;
+    margin-bottom: 0%;
+}
+
+.right2 h3 {
+    float: left;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    padding-right: 4%;
+    padding-left: 15%;
 }
