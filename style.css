@@ -1,12 +1,14 @@
 #slide {
     position: relative;
     padding: 0;
+    margin: 0;
 }
 
 #slide img {
     position: absolute;
     padding-left: 0;
     padding-top: 0;
+    margin: 0;
 }
 
 #maintitle h1 {
