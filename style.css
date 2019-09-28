@@ -38,3 +38,15 @@
     font-weight: 400;
     font-size: 40px;
 }
+
+#about{
+}
+
+#about-title h2{
+    background-color: #fff;
+    padding: 800px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
