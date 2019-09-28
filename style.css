@@ -1,9 +1,11 @@
-/*スライドする複数イメージをぴったりと重ねます*/
-#slide{
-position:relative;
+#slide {
+    position: relative;
+    width: 100%;
 }
-#slide img{
-position:absolute;
-left:0;
-top:0;
+
+#slide img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1000px;
 }

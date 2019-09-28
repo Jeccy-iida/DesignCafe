@@ -16,7 +16,7 @@ $(function () {
     //（５）ページ切換用、自作関数作成
     function changePage() {
         $("#slide img").fadeOut(1000);
-        $("#slideimg").eq(page).fadeIn(1000);
+        $("#slide img").eq(page).fadeIn(1000);
     };
 
     //（６）～秒間隔でイメージ切換の発火設定
