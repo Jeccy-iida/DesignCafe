@@ -1,3 +1,10 @@
+.content {
+    height: 100vh;
+    width: 1020px;
+}
+
+/*ここからタイトル*/
+
 .mainvisual {
     height: 750px;
 }
@@ -45,10 +52,7 @@
     font-size: 40px;
 }
 
-.content {
-    height: 100vh;
-    width: 1020px;
-}
+/*ここからABOUT*/
 
 #about-title h2 {
     background-color: #fff;
@@ -71,10 +75,10 @@
 }
 
 #item2 {
-    margin: 0px 20px ;
+    margin: 0px 20px;
 }
 
-#item3{
+#item3 {
     margin: 0px 160px 0px 0px;
 }
 
@@ -101,5 +105,37 @@
     margin: 0px 10px;
 }
 
+/*ここからmain*/
 
+.main {
+    background-color: #182b2e;
+}
 
+.main img {
+    float: left;
+}
+
+.main h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10% 0% 0% 60%;
+    padding-top: 13%;
+}
+
+.main p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0% 0% 0% 60%;
+    line-height: 180%
+
+}
+
+#main-text {
+    background-color: #182b2e;
+    height: 729px;
+
+}
