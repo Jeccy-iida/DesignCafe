@@ -3,6 +3,10 @@
     width: 1020px;
 }
 
+.web {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*ここからタイトル*/
 
 .mainvisual {
@@ -66,37 +70,51 @@
 
 #about-item {
     display: flex;
-    border: 1px solid #fff;
-    width: 350px;
-    border-radius: 10px;
-    color: #182b2e;
 }
 
 #item1 {
     margin: 0px 0px 0px 160px;
+    border: 1px solid #fff;
+    width: 350px;
+    border-radius: 10px;
+    color: #182b2e;
+    box-shadow: 0 2px 5px #ccc;
 }
 
 #item2 {
     margin: 0px 20px;
+    border: 1px solid #fff;
+    width: 350px;
+    ;
+    border-radius: 10px;
+    color: #182b2e;
+    box-shadow: 0 2px 5px #ccc;
 }
 
 #item3 {
     margin: 0px 160px 0px 0px;
+    border: 1px solid #fff;
+    width: 350px;
+    border-radius: 10px;
+    color: #182b2e;
+    box-shadow: 0 2px 5px #ccc;
 }
 
 #about-item img {
     border: 1px solid #fff;
     width: 350px;
     height: 220px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #about-item h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0px;
-    margin: 10px 10px;
+    margin: 20px 15px;
 }
 
 #about-item p {
@@ -104,7 +122,7 @@
     font-weight: 300;
     font-size: 20px;
     padding: 0px;
-    margin: 0px 10px;
+    margin: 0px 10px 20px;
 }
 
 /*ここからmain*/
@@ -148,6 +166,8 @@
     float: left;
     margin-left: 10%;
     color: #182b2e;
+    border: 0.5px solid #fff;
+    box-shadow: 0 2px 5px #ccc;
 }
 
 .right {
@@ -155,7 +175,8 @@
     border: 1px solid #fff;
     width: 40%;
     height: 400px;
-    margin-left: 50%
+    margin-left: 50%;
+    box-shadow: 0 2px 5px #ccc;
 }
 
 .right h3 {
@@ -190,4 +211,31 @@
     padding-bottom: 50px;
     padding-right: 4%;
     padding-left: 15%;
+}
+
+.button a{
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #182b2e;
+    border-radius: 5px;
+    background: #182b2e;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.botton a:hover{
+    background: #fff;
+    color: #182b2e;
+}
+
+/*ここから最後の帯*/
+
+.last{
+    background-color: #182b2e;
 }
