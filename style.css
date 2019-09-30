@@ -1,3 +1,7 @@
+* {
+    margin: 0 auto;
+}
+
 .content {
     height: 100vh;
     width: 1020px;
@@ -5,6 +9,10 @@
 
 .web {
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+
 }
 
 /*ここからタイトル*/
@@ -43,7 +51,7 @@
 
 #maintitle h2 {
     position: absolute;
-    top: 60%;
+    top: 63%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -59,17 +67,16 @@
 /*ここからABOUT*/
 
 .title h2 {
-    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
-    margin: 4%;
-
+    padding: 4%;
 }
 
-#about-item {
+.item {
     display: flex;
+
 }
 
 #item1 {
@@ -100,7 +107,7 @@
     box-shadow: 0 2px 5px #ccc;
 }
 
-#about-item img {
+.item img {
     border: 1px solid #fff;
     width: 350px;
     height: 220px;
@@ -109,7 +116,7 @@
     padding: 0px;
 }
 
-#about-item h3 {
+.item h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 25px;
@@ -117,7 +124,7 @@
     margin: 20px 15px;
 }
 
-#about-item p {
+.item p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -158,25 +165,57 @@
     height: 729px;
 }
 
+/*ここからMENU*/
+
+.menu {
+    background-color: #E7D4D1;
+    margin: 0px;
+    padding: 0px;
+    height: 85vh;
+}
+
+.menu-item1 {
+    border: 1px solid #E7D4D1;
+    width: 350px;
+    border-radius: 10px;
+    color: #182b2e;
+    box-shadow: 0 2px 5px #fff;
+}
+
+.menu-item2 {
+    border: 1px solid #E7D4D1;
+    width: 350px;
+    border-radius: 10px;
+    color: #182b2e;
+    box-shadow: 0 2px 5px #fff;
+}
+
 /*ここからＡＣＣＥＳＳ*/
 
-.left {
-    width: 40%;
-    height: 400px;
-    float: left;
-    margin-left: 10%;
-    color: #182b2e;
-    border: 0.5px solid #fff;
+.access-item {
+    border: 1px solid #fff;
+    border-radius: 10px;
     box-shadow: 0 2px 5px #ccc;
+    padding: 0px;
+    width: 75%;
+    height: 70vh;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*margin-left: 10%;*/
+    /*box-shadow: 0 2px 5px #ccc;*/
 }
 
 .right {
-    background-color: #fff;
-    border: 1px solid #fff;
-    width: 40%;
-    height: 400px;
-    margin-left: 50%;
-    box-shadow: 0 2px 5px #ccc;
+    /*background-color: #fff;*/
+    /*border: 1px solid #fff;*/
+    /*width: 40%;
+    height: 400px;*/
+    margin-left: 25%;
+    /*box-shadow: 0 2px 5px #ccc;*/
 }
 
 .right h3 {
@@ -184,6 +223,19 @@
     font-weight: 600;
     font-size: 25px;
     color: #182b2e;
+    padding: 9% 3% 4% 3%;
+}
+
+.right1 h3 {
+    float: left;
+    padding: 8.5% 8% 0% 10%;
+    margin-bottom: 0%;
+}
+
+.right2 h3 {
+    float: left;
+    margin-top: 0px;
+    padding: 0% 4.5% 10% 10%;
 }
 
 .right p {
@@ -192,31 +244,17 @@
     font-size: 16px;
     line-height: 160%;
     color: #182b2e;
+    padding: 9% 3% 4% 3%;
 }
 
-.right1 p {
-    padding-top: 9%;
-    padding-bottom: 4%;
+.right2 p {
+    padding: 0% 3% 4% 3%;
 }
 
-.right1 h3 {
-    float: left;
-    padding: 5% 8% 5% 15%;
-    margin-bottom: 0%;
-}
-
-.right2 h3 {
-    float: left;
-    margin-top: 0px;
-    padding-bottom: 50px;
-    padding-right: 4%;
-    padding-left: 15%;
-}
-
-.button a{
+.button a {
     text-align: center;
     display: block;
-    margin: 30px auto;
+    margin: 35px auto;
     width: 200px;
     height: 40px;
     color: #fff;
@@ -229,13 +267,36 @@
     font-size: 20px;
 }
 
-.botton a:hover{
+.botton a:hover {
     background: #fff;
     color: #182b2e;
 }
 
 /*ここから最後の帯*/
 
-.last{
+.last {
     background-color: #182b2e;
+}
+
+footer {
+    background-color: #182b2e;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*ふわっとスクロール*/
+
+.fadein {
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: all 0.5s;
+}
+
+.fadein.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
 }
