@@ -64,6 +64,32 @@
     font-size: 40px;
 }
 
+#mainbutton{
+    position: absolute;
+}
+    
+
+nav{
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a{
+    font-style: 16px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 10px 20px 0px 0px; 
+    margin: 14px 16px 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
 /*ここからABOUT*/
 
 .title h2 {
@@ -108,7 +134,7 @@
 }
 
 .item img {
-    border: 1px solid #fff;
+    border: 0.5px solid #fff;
     width: 350px;
     height: 220px;
     border-radius: 10px 10px 0px 0px;
@@ -136,6 +162,7 @@
 
 .main {
     background-color: #182b2e;
+   
 }
 
 .main img {
@@ -179,7 +206,7 @@
     width: 350px;
     border-radius: 10px;
     color: #182b2e;
-    box-shadow: 0 2px 5px #fff;
+    box-shadow: 0 2px 5px #182b2e;
 }
 
 .menu-item2 {
@@ -187,7 +214,7 @@
     width: 350px;
     border-radius: 10px;
     color: #182b2e;
-    box-shadow: 0 2px 5px #fff;
+    box-shadow: 0 2px 5px #182b2e;
 }
 
 /*ここからＡＣＣＥＳＳ*/
@@ -198,7 +225,7 @@
     box-shadow: 0 2px 5px #ccc;
     padding: 0px;
     width: 75%;
-    height: 70vh;
+    height: 60vh;
 }
 
 .left {
