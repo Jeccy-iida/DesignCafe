@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>DesignCafe</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,10 +15,10 @@
         <!--ここからタイトル--->
         <div class="mainvisual" class="content" id="home">
             <div id="slide">
-                <img src="background01.jpg" alt="background01">
-                <img src="background02.jpg" alt="background02">
-                <img src="background03.jpg" alt="background03">
-                <img src="background04.jpg" alt="background04">
+                <img src="img/background01.jpg" alt="background01">
+                <img src="img/background02.jpg" alt="background02">
+                <img src="img/background03.jpg" alt="background03">
+                <img src="img/background04.jpg" alt="background04">
             </div>
             <div id="mainbutton">
                 <nav>
@@ -27,7 +27,7 @@
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#main">STORY</a></li>
                         <li><a href="#menu">MENU</a></li>
-                        <li><a href="#access">ACCESS</a></li>
+                        <li class="access-nav"><a href="#access">ACCESS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,30 +40,30 @@
 
 
         <!--ここからABOUT--->
-        <div class="about" class="content" id="about">
+        <div class="about" id="about">
             <div class="title">
                 <div class="fadein">
                     <h2>ABOUT</h2>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" id="about-item">
                 <div class="fadein">
-                    <div id="item1">
-                        <img src="space.jpg" alt="space" width="350">
+                    <div class="item-1">
+                        <img src="img/space.jpg" alt="space" width="350">
                         <h3>Creative Space</h3>
                         <P>People who stay quietly alone,<br>those who enjoy spending time<br>with friends,arelaxing cafe at<br>each pace.</P>
                     </div>
                 </div>
                 <div class="fadein">
-                    <div id="item2">
-                        <img src="coffee.jpg" alt="coffee" width="350">
+                    <div class="item-1">
+                        <img src="img/coffee.jpg" alt="coffee" width="350">
                         <h3>Space Blend</h3>
                         <P>Authentic roasting coffee green<br>beans grown only with natural<br> blessings Tipica, which is the Arabica<br> species, in the shop.</P>
                     </div>
                 </div>
                 <div class="fadein">
-                    <div id="item3">
-                        <img src="designer.jpg" alt="designer" width="350">
+                    <div class="item-1">
+                        <img src="img/designer.jpg" alt="designer" width="350">
                         <h3>Designer Community</h3>
                         <P>Authentic roasting coffee green<br>beans grown only with natural<br> blessings Tipica, which is the Arabica<br> species, in the shop.</P>
                     </div>
@@ -73,7 +73,7 @@
 
         <!--ここからmain--->
         <div class="main" class="content" id="main">
-            <img src="mind1.jpg" all="mind" width="700">
+            <img src="img/mind1.jpg" all="mind" width="700">
             <div id=main-text>
                 <div class="main-title">
                     <div class="fadein">
@@ -92,23 +92,24 @@
         </div>
 
         <!--ここからメニュー--->
-        <div class="menu" class="content" id="menu">
+        <div class="menu" id="menu">
             <div class="title">
                 <div class="fadein">
                     <h2>MENU</h2>
                 </div>
             </div>
-            <div class="item">
-                <div class="fadein">
-                    <div class="menu-item1">
-                        <img src="dorinkmenu.jpg" alt="drink menu" width="350">
+            <div class="item-2">
+                <div class="menu-item">
+                    <div class="fadein">
+
+                        <img src="img/dorinkmenu.jpg" alt="drink menu" width="350">
                         <h2>Drink Menu</h2>
                         <p>-Coffee<br>-Tea<br>-OrangeJuice<br>-Handmade mixed juice</p>
                     </div>
                 </div>
                 <div class="fadein">
-                    <div class="menu-item2">
-                        <img src="foodmenu.jpg" alt="food menu" width="350">
+                    <div class="menu-item">
+                        <img src="img/foodmenu.jpg" alt="food menu" width="350">
                         <h2>Food Menu</h2>
                         <p>-Daily lunch<br>-Sandwich<br>-Vegetable soup<br>-Muffin</p>
                     </div>
@@ -159,4 +160,6 @@
     </div>
     <script src="jquery.min.js"></script>
     <script src="index.js"></script>
-</body></html>
+</body>
+
+</html>

@@ -42,6 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 720px;
 }
 
 #maintitle h1 {
@@ -86,24 +87,25 @@
 
 #mainbutton {
     position: absolute;
-    left: 50%;
-}
-
-
-nav {
-    overflow: hidden;
+    right: 0%;
+    width: 51%;
 }
 
 nav li {
     list-style-type: none;
     float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+.access-nav {
+    right: 0%;
 }
 
 nav a {
     display: block;
     text-decoration: none;
     color: #f9f9f9;
-    padding-top: 10%;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 30px;
@@ -117,11 +119,13 @@ nav a:hover {
     nav a {
         font-size: 9px;
     }
-
-    nav {}
 }
 
 /*ここからABOUT*/
+
+#about {
+    position: relative;
+}
 
 .title h2 {
     font-family: 'Roboto', sans-serif;
@@ -131,43 +135,25 @@ nav a:hover {
     padding: 4%;
 }
 
-.item {
+#about-item {
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
-
 }
 
-#item1 {
-    margin: 0px 0px 0px 160px;
+.item-1 {
     border: 1px solid #fff;
-    width: 350px;
-    border-radius: 10px;
+    border-radius: 5%;
     color: #182b2e;
     box-shadow: 0 2px 5px #ccc;
-}
-
-#item2 {
-    margin: 0px 20px;
-    border: 1px solid #fff;
-    width: 350px;
-    ;
-    border-radius: 10px;
-    color: #182b2e;
-    box-shadow: 0 2px 5px #ccc;
-}
-
-#item3 {
-    margin: 0px 160px 0px 0px;
-    border: 1px solid #fff;
-    width: 350px;
-    border-radius: 10px;
-    color: #182b2e;
-    box-shadow: 0 2px 5px #ccc;
+    height: 90%;
+    margin: 3%;
 }
 
 .item img {
     border: 0.5px solid #fff;
-    width: 350px;
-    height: 220px;
+    height: 50%;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     margin: 0px;
     padding: 0px;
@@ -178,22 +164,22 @@ nav a:hover {
     font-weight: 600;
     font-size: 25px;
     padding: 0px;
-    margin: 20px 15px;
+    margin: 3% 3%;
 }
 
 .item p {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 20px;
     padding: 0px;
-    margin: 0px 10px 20px;
+    line-height: 150%;
+    margin: 0% 3% 7%;
 }
 
 /*ここからmain*/
 
 .main {
     background-color: #182b2e;
-
 }
 
 .main img {
@@ -224,7 +210,6 @@ nav a:hover {
 }
 
 /*ここからMENU*/
-
 .menu {
     background-color: #E7D4D1;
     margin: 0px;
@@ -232,27 +217,44 @@ nav a:hover {
     height: 85vh;
 }
 
-.menu-item1 {
+.item-2 {
+    display: flex;
+}
+
+.menu img {
+    height: 220px;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.menu-item {
     border: 1px solid #E7D4D1;
-    width: 350px;
-    border-radius: 10px;
+    width: 24.5%;
+    border-radius: 5%;
     color: #182b2e;
     box-shadow: 0 2px 5px #182b2e;
 }
 
-.menu-item2 {
-    border: 1px solid #E7D4D1;
-    width: 350px;
-    border-radius: 10px;
-    color: #182b2e;
-    box-shadow: 0 2px 5px #182b2e;
+.menu-item h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0px;
+    margin: 3% 6%;
+}
+
+.menu p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0% 3% 7%;
 }
 
 /*ここからＡＣＣＥＳＳ*/
 
 .access-item {
     border: 1px solid #fff;
-    border-radius: 10px;
+    border-radius: 3%;
     box-shadow: 0 2px 5px #ccc;
     padding: 0px;
     width: 75%;
@@ -263,8 +265,11 @@ nav a:hover {
     width: 50%;
     height: 100%;
     float: left;
-    /*margin-left: 10%;*/
-    /*box-shadow: 0 2px 5px #ccc;*/
+}
+
+.left iframe {
+    border-radius: 3% 0% 0% 3%;
+
 }
 
 .right {
