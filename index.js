@@ -18,7 +18,6 @@ $(function () {
         $("#slide img").fadeOut(1000);
         $("#slide img").eq(page).fadeIn(1000);
     };
-
     //（６）～秒間隔でイメージ切換の発火設定
     var Timer;
 
@@ -45,15 +44,22 @@ $(function () {
 
 });
 
-$(function(){
-    $(window).scroll(function (){
-        $('.fadein').each(function(){
+/*$(".menu-toggle").on('click', function () {
+    $(this).toggleClass("on");
+    $('.menu-section').toggleClass("on");
+    $("nav ul").toggleClass('hidden');
+});*/
+
+
+$(function () {
+    $(window).scroll(function () {
+        $('.fadein').each(function () {
             var elemPos = jQuery(this).offset().top;
             var scroll = jQuery(window).scrollTop();
             var windowHeight = jQuery(window).height();
-            if (scroll > elemPos - windowHeight + 100){
+            if (scroll > elemPos - windowHeight + 100) {
                 jQuery(this).addClass('scrollin');
             }
         });
     });
-  });
+});

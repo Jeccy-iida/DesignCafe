@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/web.css">
+    <link rel="stylesheet" href="css/.css">
     <title>DesignCafe</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +15,26 @@
 
         <!--ここからタイトル--->
         <div class="mainvisual" class="content" id="home">
-            <div id="slide">
-                <img src="img/background01.jpg" alt="background01">
-                <img src="img/background02.jpg" alt="background02">
-                <img src="img/background03.jpg" alt="background03">
-                <img src="img/background04.jpg" alt="background04">
+            <div id="slide" class="pc">
+                <img src="img/background01.jpg" alt="background01-pc">
+                <img src="img/background02.jpg" alt="background02-pc">
+                <img src="img/background03.jpg" alt="background03-pc">
+                <img src="img/background04.jpg" alt="background04-pc">
+            </div>
+            <div id="slide" class="sm">
+                <img src="img/background-01-sm.png" alt="background01-sm" height="850px">
+                <img src="img/background02-1-sm.png" alt="background02-sm" height="850px">
+                <img src="img/background-03-sm.png" alt="background03-sm" height="850px">
+                <img src="img/backgroung-04-sm.png" alt="background04-sm" height="850px">
             </div>
             <div id="mainbutton">
                 <nav>
                     <ul>
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#main">STORY</a></li>
-                        <li><a href="#menu">MENU</a></li>
-                        <li class="access-nav"><a href="#access">ACCESS</a></li>
+                        <li class="pc"><a href="#home">HOME</a></li>
+                        <li class="pc"><a href="#about">ABOUT</a></li>
+                        <li class="pc"><a href="#main">STORY</a></li>
+                        <li class="pc"><a href="#menu">MENU</a></li>
+                        <li class="pc"><a href="#access">ACCESS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -49,23 +56,23 @@
             <div class="item" id="about-item">
                 <div class="fadein">
                     <div class="item-1">
-                        <img src="img/space.jpg" alt="space" width="350">
+                        <img src="img/space.jpg" alt="space" width="340">
                         <h3>Creative Space</h3>
                         <P>People who stay quietly alone,<br>those who enjoy spending time<br>with friends,arelaxing cafe at<br>each pace.</P>
                     </div>
                 </div>
                 <div class="fadein">
                     <div class="item-1">
-                        <img src="img/coffee.jpg" alt="coffee" width="350">
+                        <img src="img/coffee.jpg" alt="coffee" width="340">
                         <h3>Space Blend</h3>
-                        <P>Authentic roasting coffee green<br>beans grown only with natural<br> blessings Tipica, which is the Arabica<br> species, in the shop.</P>
+                        <P>Authentic roasting coffee green<br>beans grown only with natural<br> blessings Tipica, which is the Arabica　species, in the shop.</P>
                     </div>
                 </div>
                 <div class="fadein">
                     <div class="item-1">
-                        <img src="img/designer.jpg" alt="designer" width="350">
+                        <img src="img/designer.jpg" alt="designer" width="340">
                         <h3>Designer Community</h3>
-                        <P>Authentic roasting coffee green<br>beans grown only with natural<br> blessings Tipica, which is the Arabica<br> species, in the shop.</P>
+                        <P>Authentic roasting coffee green<br>beans grown only with natural<br> blessings Tipica, which is the Arabica species, in the shop.</P>
                     </div>
                 </div>
             </div>
@@ -99,8 +106,8 @@
                 </div>
             </div>
             <div class="item-2">
-                <div class="menu-item">
-                    <div class="fadein">
+                <div class="fadein">
+                    <div class="menu-item">
 
                         <img src="img/dorinkmenu.jpg" alt="drink menu" width="350">
                         <h2>Drink Menu</h2>
@@ -138,28 +145,25 @@
                         </div>
                         <div class="right2">
                             <h3>Address</h3>
-                            <p>Japan, 2 - chome Minami -<br>Azabu Minato - ku, Tokyo 12-3<br>Life is Tech! SCHOOL Shirogane<br>Takanawa Main Hall</p>
+                            <p>Japan, 2 - chome Minami -<br>Azabu Minato - ku, Tokyo 12-3<br>Life is Tech! SCHOOL Shirogane Takanawa Main Hall</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="button">
-                <div class="fadein">
-                    <a href="https://life-is-tech.com">Reservation</a>
-                </div>
+
+                <a href="https://life-is-tech.com">Reservation</a>
+
+            </div>
+            <!--ここから一番下の帯--->
+            <div class="last" class="content">
+                <footer>
+                    <p>Copyright &copy; Ryujin.All Rights Reserved.</p>
+                </footer>
             </div>
         </div>
-
-        <!--ここから一番下の帯--->
-        <div class="last" class="content">
-            <footer>
-                <p>Copyright &copy; Ryujin.All Rights Reserved.</p>
-            </footer>
-        </div>
-
-    </div>
-    <script src="jquery.min.js"></script>
-    <script src="index.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
