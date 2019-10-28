@@ -71,16 +71,15 @@
 
 #maintitle h1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 38%;
+    width: 100%;
+    text-align: center;
     margin: 0;
     padding: 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 100px;
+    font-size: 130px;
 }
 
 #maintitle h2 {
@@ -94,11 +93,11 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 @media screen and (max-width : 480px) {
-    #maintitle h1 {
+    /*#maintitle h1 {
         font-size: 60px;
         width: 90%;
     }
@@ -107,7 +106,7 @@
         font-size: 30px;
         width: 80%;
         top: 56%;
-    }
+    }*/
 }
 
 
@@ -266,7 +265,7 @@ nav a:hover {
 @media screen and (max-width : 480px) {
     .main {
         margin-top: 10%;
-        height: 870px;
+        height: 1000px;
     }
 
     .main img {
@@ -299,44 +298,7 @@ nav a:hover {
     height: 85vh;
 }
 
-.item-2 {
-    display: flex;
-}
 
-.menu img {
-    height: 220px;
-    border-radius: 3% 3% 0% 0%;
-    height: 50%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
-.menu-item {
-    border: 1px solid #E7D4D1;
-    height: 90%;
-    margin: 3%;
-    width: 350px;
-    border-radius: 3%;
-    color: #182b2e;
-    box-shadow: 0 2px 5px #182b2e;
-}
-
-.menu-item h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    padding: 0px;
-    margin: 0% 6%;
-}
-
-.menu p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0% 3% 7%;
-}
 
 @media screen and (max-width : 480px) {
     .item-2 {
@@ -344,7 +306,7 @@ nav a:hover {
     }
 
     .menu {
-        height: 900px;
+        height: 1500px;
     }
 
     .menu-item {
@@ -468,7 +430,7 @@ span {
     font-size: 20px;
     text-decoration: none;
     padding: 7px;
-    width: 10%;
+    width: 15%;
     margin: 50px auto 70px auto;
     transition: 1.0s;
 }
